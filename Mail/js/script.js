@@ -1,5 +1,5 @@
 // ARRAY
-const arrayEmail = ["example@gmail.com", "pippo@gmail.com", "pluto@gmail.com"]
+const arrayEmail = ["example@gmail.com", "pippo@gmail.com", "pluto@gmail.com", "edward@gmail.com"]
 
 //BARRA RICERCA
 const sendBtnElem = document.getElementById("send-btn"); // object | null
@@ -25,6 +25,5 @@ sendBtnElem.addEventListener("click", function(){
         document.getElementById("result").innerHTML = "Registrato";
     } else {
         document.getElementById("result").innerHTML = "Non Registrato";
-        
     }
 })
